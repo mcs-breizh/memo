@@ -561,6 +561,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-harness-cursor-lovable-claude-code",
+    "url": "https://x.com/0xmaxou/status/2038293702574035216",
+    "title": "Le 'Harness' Fait Tout : ce que Cursor, Lovable, Claude Code ont vraiment sous le capot",
+    "summary": "L'article explore le concept de « harnais » dans l'IA — un environnement optimisé pour maximiser l'efficacité des modèles plutôt que de miser sur leur puissance brute. Il analyse comment Cursor, Lovable et Claude Code utilisent ce concept pour créer des agents performants en s'appuyant sur des modèles existants (Claude, Gemini, Codex). L'article souligne l'importance de l'ingénierie du harnais — gestion du contexte, contraintes architecturales, correction d'erreurs — pour transformer l'IA brute en système fiable.",
+    "tags": ["ia", "coding-agents", "architecture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
