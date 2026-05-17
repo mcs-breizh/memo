@@ -506,6 +506,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-ascii-characters-pixels-rendering",
+    "url": "https://alexharri.com/blog/ascii-rendering",
+    "title": "ASCII characters are not pixels: a deep dive into ASCII rendering",
+    "summary": "Alex Harri Jónsson explore le rendu ASCII sous un angle inattendu : plutôt que de traiter les caractères comme des pixels, il les sélectionne en fonction de leur forme géométrique pour obtenir un rendu nettement plus précis. L'article détaille des techniques comme le supersampling, les centroïdes de caractères et la quantification, illustrées par des démos interactives. Une plongée technique soignée dans la géométrie des polices monospace et les subtilités de la représentation visuelle par caractères.",
+    "tags": ["retex", "misc"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
