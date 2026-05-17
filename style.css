@@ -32,7 +32,8 @@
   flex-wrap: wrap;
 }
 
-.status-btn {
+.status-btn,
+.status-btn[aria-pressed="false"] {
   padding: 0.35rem 0.85rem;
   font-size: 0.875rem;
   border-radius: 2rem;
@@ -45,7 +46,8 @@
   min-width: 3.5rem;
 }
 
-.status-btn.active {
+.status-btn.active,
+.status-btn[aria-pressed="true"] {
   background: var(--pico-primary);
   border-color: var(--pico-primary);
   color: var(--pico-primary-inverse);
