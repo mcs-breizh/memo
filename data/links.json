@@ -308,6 +308,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-native-way-need-text",
+    "url": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
+    "title": "Native all the way, until you need text",
+    "summary": "L'auteur raconte sa tentative d'implémenter un chat avec support Markdown dans une application Swift/SwiftUI purement native. Il découvre que les composants natifs restent immatures pour le rendu de texte riche (sélection, formatage). Il finit par recourir à WebKit, ce qui explique pourquoi la plupart des apps chat modernes s'appuient sur des technologies web.",
+    "tags": ["architecture", "bonnes-pratiques", "mobile"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
