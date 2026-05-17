@@ -363,6 +363,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-spectral-api-description-linter",
+    "url": "https://stoplight.io/open-source/spectral",
+    "title": "Spectral — Open Source API Description Linter",
+    "summary": "Spectral est un linter JSON/YAML open source (Apache 2.0) spécialisé dans la validation des descriptions d'API, avec un support natif d'OpenAPI (v2 et v3) et AsyncAPI. Il permet de définir des style guides automatisés via des rulesets personnalisables, et s'intègre en CLI, en plugin VS Code ou dans les pipelines CI. Un outil clé pour garantir la cohérence et la qualité des contrats d'API à l'échelle d'une organisation.",
+    "tags": ["architecture", "bonnes-pratiques", "devops", "api"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
