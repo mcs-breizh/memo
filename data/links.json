@@ -528,6 +528,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-next-two-years-software-engineering",
+    "url": "https://addyosmani.com/blog/next-two-years/",
+    "title": "The Next Two Years of Software Engineering",
+    "summary": "Addy Osmani (Google Chrome) explore cinq questions clés qui dessineront le software engineering d'ici 2026 : l'évolution du rôle des juniors face à l'IA, la transformation du développeur en orchestrateur d'agents, et l'importance croissante de la pensée systémique. Il souligne qu'à l'ère des agents parallèles, la qualité de la spécification devient critique — une pensée floue se multiplie par autant d'agents lancés en parallèle. Un cadre de réflexion pour anticiper les évolutions du métier et se positionner stratégiquement.",
+    "tags": ["ia", "coding-agents", "engineering-culture", "developpement-personnel"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
