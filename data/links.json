@@ -517,6 +517,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-harness-design-long-running-apps",
+    "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "title": "Harness Design for Long-Running Application Development",
+    "summary": "L'équipe engineering d'Anthropic décrit une architecture de harness multi-agents pour les tâches de développement longue durée : un agent initialise le projet et maintient une liste de fonctionnalités en JSON, tandis qu'un agent de code traite une feature à la fois avec des resets de contexte entre sessions. La mémoire persiste entre les sessions via des fichiers de progression et des commits git à chaque checkpoint — permettant à l'agent de reconstruire son contexte à chaque redémarrage. Un article de référence pour concevoir des systèmes multi-agents robustes sur des tâches de plusieurs heures.",
+    "tags": ["ia", "coding-agents", "architecture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
