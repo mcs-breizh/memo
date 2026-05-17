@@ -550,6 +550,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-sprint-longer-ai-generated-codebases",
+    "url": "https://vibecodiq.com/ai-chaos/pains/delivery-slowdown",
+    "title": "Why Every Sprint Takes Longer Than the Last in AI-Generated Codebases",
+    "summary": "Les codebases générées par IA subissent un ralentissement prévisible de la vélocité de livraison après 60 jours, dû à des problèmes structurels qui s'accumulent : dérive d'architecture, corruption du graphe de dépendances et dégradation de l'infrastructure de tests. Ces problèmes se composent dans le temps, rendant chaque modification de plus en plus difficile. L'article propose une approche en trois phases : diagnostiquer la dette structurelle, stabiliser la codebase par découplage et enforcement des frontières, puis mettre en place une stratégie de croissance contrôlée.",
+    "tags": ["ia", "coding-agents", "architecture", "bonnes-pratiques"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
