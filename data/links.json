@@ -31,5 +31,16 @@
     "notes": "",
     "added_at": "2026-05-17T00:00:00Z",
     "read_at": null
+  },
+  {
+    "id": "20260517-generative-ai-risks-developers",
+    "url": "https://leaddev.com/technical-direction/6-biggest-generative-ai-risks-developers",
+    "title": "6 Biggest Generative AI Risks for Developers",
+    "summary": "Cet article de LeadDev passe en revue les six principaux risques de l'IA générative pour les développeurs : hallucinations de code, introduction silencieuse de vulnérabilités de sécurité, problèmes de propriété intellectuelle, dépendance excessive aux outils, dérive des compétences et risques liés à la confidentialité des données. Il invite les équipes engineering à adopter une posture critique et informée face à ces technologies. Une lecture utile pour encadrer sereinement l'adoption de l'IA dans les pratiques de développement.",
+    "tags": ["ia", "bonnes-pratiques", "securite", "engineering-culture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
   }
 ]
