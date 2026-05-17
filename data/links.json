@@ -86,5 +86,16 @@
     "notes": "",
     "added_at": "2026-05-17T00:00:00Z",
     "read_at": null
+  },
+  {
+    "id": "20260517-spinnaker-canary-deployments",
+    "url": "https://spinnaker.io/docs/guides/user/canary/",
+    "title": "Canary Deployments – Spinnaker Documentation",
+    "summary": "Cette page de documentation de Spinnaker explique le concept de déploiement canary, une stratégie qui consiste à déployer une nouvelle version d'un service auprès d'un sous-ensemble restreint d'utilisateurs avant un déploiement généralisé. Elle décrit comment Spinnaker automatise l'analyse comparative des métriques entre la version canary et la version stable, permettant de valider ou d'annuler un déploiement de manière objective. Une référence pratique pour mettre en œuvre des déploiements progressifs et sécurisés.",
+    "tags": ["devops", "architecture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
   }
 ]
