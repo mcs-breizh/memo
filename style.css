@@ -85,6 +85,11 @@
   color: var(--pico-secondary-inverse);
 }
 
+.tag-btn.zero {
+  opacity: 0.4;
+  cursor: default;
+}
+
 .tag-count {
   font-size: 0.7rem;
 }
