@@ -252,11 +252,10 @@
   border-radius: 2px;
 }
 
-/* Guaranteed-contrast muted text (≥ 7:1 on white) */
 .counter,
 .link-date,
 .notes-details summary,
 .empty-state,
 .no-results {
-  color: #595959;
+  color: var(--pico-muted-color);
 }
