@@ -40,7 +40,9 @@
   cursor: pointer;
   border: 1px solid var(--pico-muted-border-color);
   background: transparent;
-  color: var(--pico-color);
+  color: var(--pico-color, #333);
+  -webkit-appearance: none;
+  appearance: none;
   transition: background 0.15s, border-color 0.15s;
   min-height: 2.5rem;
   min-width: 3.5rem;
@@ -70,7 +72,9 @@
   cursor: pointer;
   border: 1px solid var(--pico-muted-border-color);
   background: transparent;
-  color: var(--pico-color);
+  color: var(--pico-color, #333);
+  -webkit-appearance: none;
+  appearance: none;
   transition: background 0.15s, border-color 0.15s;
   min-height: 2.25rem;
 }
