@@ -418,6 +418,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-ai-native-software-engineer",
+    "url": "https://addyo.substack.com/p/the-ai-native-software-engineer",
+    "title": "The AI-Native Software Engineer",
+    "summary": "Addy Osmani (Google Chrome) définit le profil de l'ingénieur « AI-native » : celui qui intègre profondément l'IA dans son workflow quotidien, en la traitant comme un pair-programmer disponible 24/7 plutôt que comme une menace. L'approche consiste à déléguer à l'IA les tâches répétitives (boilerplate, docs, tests) pour se concentrer sur la résolution de problèmes de haut niveau — tout en restant le garant final de la qualité, la sécurité et la justesse du code. Un cadre de réflexion sur la façon dont les développeurs expérimentés peuvent multiplier leur impact à l'ère des assistants IA.",
+    "tags": ["ia", "engineering-culture", "bonnes-pratiques"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
