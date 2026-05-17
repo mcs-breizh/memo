@@ -75,5 +75,16 @@
     "notes": "",
     "added_at": "2026-05-17T00:00:00Z",
     "read_at": null
+  },
+  {
+    "id": "20260517-life-beyond-distributed-transactions",
+    "url": "https://queue.acm.org/detail.cfm?id=3025012",
+    "title": "Life Beyond Distributed Transactions (Pat Helland, ACM Queue)",
+    "summary": "Dans cet article de référence, Pat Helland explore comment concevoir des applications à très grande échelle sans recourir aux transactions distribuées, incompatibles avec une scalabilité extrême. Il introduit le concept d'entités — des unités de données modifiables atomiquement en isolation — et propose des patterns de communication qui acceptent l'incertitude plutôt que de la masquer. Un texte fondamental pour comprendre les compromis des systèmes distribués à l'échelle.",
+    "tags": ["architecture", "systemes-distribues", "bonnes-pratiques"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
   }
 ]
