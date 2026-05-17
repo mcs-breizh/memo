@@ -15,7 +15,7 @@
   </header>
 
   <main class="container">
-    <section class="filters-section">
+    <section class="filters-section" aria-label="Filtres">
       <input
         type="search"
         id="search-input"
@@ -25,12 +25,12 @@
       >
 
       <div class="status-filter" role="group" aria-label="Filtrer par statut">
-        <button class="status-btn active" data-status="all">Tous</button>
-        <button class="status-btn" data-status="unread">À lire</button>
-        <button class="status-btn" data-status="read">Lus</button>
+        <button class="status-btn active" data-status="all" aria-pressed="true">Tous</button>
+        <button class="status-btn" data-status="unread" aria-pressed="false">À lire</button>
+        <button class="status-btn" data-status="read" aria-pressed="false">Lus</button>
       </div>
 
-      <div id="tags-container" class="tags-container" aria-label="Filtrer par tag"></div>
+      <div id="tags-container" class="tags-container" role="group" aria-label="Filtrer par tag"></div>
 
       <p id="counter" class="counter" aria-live="polite"></p>
     </section>
