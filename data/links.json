@@ -352,6 +352,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-unexpected-anti-patterns-engineering-leaders",
+    "url": "https://review.firstround.com/unexpected-anti-patterns-for-engineering-leaders-lessons-from-stripe-uber-carta/",
+    "title": "Unexpected Anti-Patterns for Engineering Leaders — Lessons from Stripe, Uber & Carta",
+    "summary": "Will Larson (CTO chez Carta, ex-Stripe, Uber, Calm) remet en question trois anti-patterns classiques du leadership engineering. Il défend que le micromanagement est parfois nécessaire, qu'une métrique imparfaite vaut mieux qu'aucune métrique, et que protéger son équipe de l'organisation peut être contre-productif. Un article qui invite les leaders techniques à interroger leurs réflexes les plus ancrés.",
+    "tags": ["leadership", "management", "engineering-culture", "bonnes-pratiques"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
