@@ -495,6 +495,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-croyances-ia-resistent-terrain",
+    "url": "https://medium.com/@tnansot/pourquoi-nos-croyances-sur-lia-r%C3%A9sistent-mal-au-terrain-857d0370b952",
+    "title": "Pourquoi nos croyances sur l'IA résistent mal au terrain",
+    "summary": "Thomas Nansot (Head of Engineering chez SNCF Connect & Tech, ex-CTO HiPay) partage un retour d'expérience sans complaisance sur une expérimentation IA menée en contexte réel. Il confronte ses propres croyances initiales à la réalité du terrain : ce que l'IA fait bien aujourd'hui, ce qu'elle ne sait pas faire, et les impacts concrets sur les équipes (notamment QA). Un témoignage qui rappelle que si les choses avancent vite sur le papier, le changement reste profondément humain.",
+    "tags": ["ia", "coding-agents", "retex"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
