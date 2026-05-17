@@ -9,7 +9,7 @@ let searchQuery = '';
 function normalise(str) {
   return (str || '')
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase();
 }
 
@@ -128,8 +128,8 @@ function renderLinks(filtered) {
     return `
       <article class="link-card">
         <div class="link-card-header">
-          <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" class="link-title">${escapeHtml(link.title)}</a>
-          <span class="status-badge ${statusClass}" title="${statusLabel}"></span>
+          <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer" class="link-title">${escapeHtml(link.title)}<span class="sr-only"> (nouvel onglet)</span></a>
+          <span class="status-badge ${statusClass}" role="img" aria-label="${statusLabel}"></span>
         </div>
         ${link.summary ? `<p class="link-summary">${escapeHtml(link.summary)}</p>` : ''}
         <div class="link-meta">
@@ -182,8 +182,12 @@ function initSearch() {
 function initStatusFilter() {
   document.querySelectorAll('.status-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      document.querySelectorAll('.status-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.status-btn').forEach(b => {
+        b.classList.remove('active');
+        b.setAttribute('aria-pressed', 'false');
+      });
       btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
       activeStatus = btn.dataset.status;
       render();
     });

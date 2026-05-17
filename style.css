@@ -32,7 +32,8 @@
   flex-wrap: wrap;
 }
 
-.status-btn {
+.status-btn,
+.status-btn[aria-pressed="false"] {
   padding: 0.35rem 0.85rem;
   font-size: 0.875rem;
   border-radius: 2rem;
@@ -45,7 +46,8 @@
   min-width: 3.5rem;
 }
 
-.status-btn.active {
+.status-btn.active,
+.status-btn[aria-pressed="true"] {
   background: var(--pico-primary);
   border-color: var(--pico-primary);
   color: var(--pico-primary-inverse);
@@ -81,7 +83,6 @@
 
 .tag-count {
   font-size: 0.7rem;
-  opacity: 0.7;
 }
 
 /* ── Counter ── */
@@ -217,4 +218,41 @@
   .link-title {
     font-size: 0.9rem;
   }
+}
+
+/* ── Accessibility ── */
+
+/* Screen-reader only text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Explicit focus rings for custom buttons and summary */
+.status-btn:focus-visible,
+.tag-btn:focus-visible {
+  outline: 2px solid var(--pico-primary);
+  outline-offset: 2px;
+}
+
+.notes-details summary:focus-visible {
+  outline: 2px solid var(--pico-primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Guaranteed-contrast muted text (≥ 7:1 on white) */
+.counter,
+.link-date,
+.notes-details summary,
+.empty-state,
+.no-results {
+  color: #595959;
 }
