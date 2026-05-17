@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "20260517-pep-20-zen-python",
+    "url": "https://peps.python.org/pep-0020/",
+    "title": "PEP 20 – The Zen of Python",
+    "summary": "Le PEP 20 recueille les 19 aphorismes de Tim Peters qui résument la philosophie de conception de Python, tels que « Explicit is better than implicit » ou « Readability counts ». Ces principes, accessibles via `import this`, servent de boussole pour écrire un code pythonique et élégant. Ils constituent également une base solide pour construire et diffuser une culture engineering au sein d'une équipe.",
+    "tags": ["python", "engineering-culture", "bonnes-pratiques", "philosophie"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  }
+]
