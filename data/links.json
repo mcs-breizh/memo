@@ -64,5 +64,16 @@
     "notes": "",
     "added_at": "2026-05-17T00:00:00Z",
     "read_at": null
+  },
+  {
+    "id": "20260517-prevent-product-waste",
+    "url": "https://www.usertesting.com/blog/how-prevent-product-waste",
+    "title": "How to Prevent Product Waste",
+    "summary": "Cet article de UserTesting explore les différentes formes de gaspillage en développement produit — fonctionnalités inutilisées, priorités mal alignées, hypothèses non validées — et propose des stratégies pour les éviter. Il met en avant l'importance des tests utilisateurs et de la recherche UX en amont pour s'assurer que les équipes construisent ce qui a réellement de la valeur. Une lecture utile pour tout product manager souhaitant améliorer le ROI de son équipe.",
+    "tags": ["produit", "bonnes-pratiques", "strategie"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
   }
 ]
