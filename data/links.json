@@ -385,6 +385,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-teams-arent-empowered-fix",
+    "url": "https://blog.crisp.se/2024/11/07/christopheachouiantz/why-your-teams-arent-really-empowered-and-how-to-fix-it",
+    "title": "Why Your Teams Aren't Really Empowered (and How to Fix It)",
+    "summary": "Christophe Achouiantz (Crisp) pose un diagnostic sévère : la plupart des entreprises qui se disent organisées en équipes autonomes n'ont en réalité que des feature factories déguisées, où les équipes choisissent comment implémenter des solutions qu'on leur impose. Une vraie équipe empowered reçoit un problème à résoudre — pas une solution à livrer — et conserve la liberté de découvrir, tester et invalider des hypothèses avant d'implémenter. L'article propose un cadre pour passer du delivery de features à la recherche d'outcomes réels.",
+    "tags": ["produit", "organisation", "engineering-culture", "management"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
