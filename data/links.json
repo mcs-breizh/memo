@@ -319,6 +319,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-engineering-strategy-notes",
+    "url": "https://lethain.com/strategy-notes/",
+    "title": "Engineering Strategy Notes",
+    "summary": "Will Larson (auteur de Staff Engineer et The Engineering Executive's Primer) compile ses notes de réflexion sur la stratégie engineering : comment la définir, la structurer et l'appliquer à tous les niveaux, pas uniquement pour les executives. La page regroupe ses ressources de référence, des extraits de ses livres et des pointeurs vers des ouvrages clés comme Good Strategy, Bad Strategy de Rumelt. Un hub de lecture incontournable pour développer une approche rigoureuse de la stratégie technique.",
+    "tags": ["strategie", "engineering-culture", "leadership", "bonnes-pratiques"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
