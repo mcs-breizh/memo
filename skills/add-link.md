@@ -15,8 +15,29 @@ Ajouter un ou plusieurs nouveaux liens à la base de veille (`data/links.json`) 
 ### 1. Récupération des URLs
 L'utilisateur fournit une ou plusieurs URLs. Traiter chaque URL séquentiellement (les unes après les autres) pour permettre la validation au fil de l'eau.
 
-### 2. Fetch du contenu
-Pour chaque URL, récupérer le contenu de la page avec l'outil `WebFetch`. Extraire :
+### 2. Accès au contenu de la page
+
+Pour chaque URL, tenter d'accéder au contenu dans l'ordre suivant. Passer à l'étape suivante **uniquement si la précédente échoue** (erreur réseau, page inaccessible, contenu vide ou insuffisant).
+
+**a) Accès direct**
+Utiliser `WebFetch` sur l'URL originale.
+
+**b) Cache Google**
+Utiliser `WebFetch` sur : `https://webcache.googleusercontent.com/search?q=cache:<URL>`
+
+**c) Wayback Machine**
+Utiliser `WebFetch` sur : `https://web.archive.org/web/<URL>`
+(Wayback Machine renvoie automatiquement la capture la plus récente disponible.)
+
+**d) Recherche web**
+Utiliser `WebSearch` avec le titre de la page ou des mots-clés représentatifs pour trouver une description ou un résumé de l'article.
+
+**e) Demande à l'utilisateur**
+Si toutes les approches précédentes échouent, demander à l'utilisateur :
+- soit le **PDF de la page** (à lire avec l'outil `Read`)
+- soit le **titre exact et un résumé** qu'il rédige lui-même
+
+Extraire à partir du contenu obtenu :
 - Le titre de la page (balise `<title>` ou `<h1>` principal)
 - Le contenu textuel principal (ignorer navigation, footer, publicités)
 
@@ -80,17 +101,13 @@ Lire `data/links.json`, ajouter l'objet suivant à la fin du tableau, puis réé
   "summary": "<résumé validé>",
   "tags": ["<tag1>", "<tag2>"],
   "status": "unread",
-  "notes": "",
-  "added_at": "<date-heure ISO 8601 courante>",
-  "read_at": null
+  "notes": ""
 }
 ```
 
 Contraintes :
 - `status` : toujours `"unread"` à l'ajout
 - `notes` : toujours `""` à l'ajout
-- `read_at` : toujours `null` à l'ajout
-- `added_at` : date/heure courante en UTC, format ISO 8601 (ex: `"2026-05-17T14:30:00Z"`)
 
 ### 10. Commit et push
 Une fois tous les liens ajoutés :
@@ -104,4 +121,4 @@ git push -u origin <branche-courante>
 ## Contraintes générales
 - Maximum 4 tags par lien
 - Ne jamais modifier le frontend (HTML/JS/CSS)
-- En cas d'erreur de fetch, signaler à l'utilisateur et proposer de saisir manuellement le titre et le résumé
+- En cas d'échec d'accès au contenu, suivre la chaîne de fallback définie à l'étape 2

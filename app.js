@@ -13,13 +13,6 @@ function normalise(str) {
     .toLowerCase();
 }
 
-/* format ISO date → "17 mai 2026" */
-function formatDate(iso) {
-  if (!iso) return '';
-  const d = new Date(iso);
-  return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
-}
-
 /* compute filtered links */
 function getFiltered() {
   const q = normalise(searchQuery);
@@ -64,7 +57,10 @@ function countPerTag() {
 function renderTags() {
   const container = document.getElementById('tags-container');
   const counts = countPerTag();
-  const tagKeys = Object.keys(allTags);
+  const tagKeys = Object.keys(allTags).sort((a, b) => {
+    const diff = (counts[b] || 0) - (counts[a] || 0);
+    return diff !== 0 ? diff : a.localeCompare(b);
+  });
   if (tagKeys.length === 0) {
     container.innerHTML = '';
     return;
@@ -106,9 +102,7 @@ function renderLinks(filtered) {
     return;
   }
 
-  const sorted = [...filtered].sort((a, b) => new Date(b.added_at) - new Date(a.added_at));
-
-  container.innerHTML = sorted.map(link => {
+  container.innerHTML = filtered.map(link => {
     const tags = (link.tags || []).map(t => {
       const label = allTags[t] || t;
       return `<span class="tag-badge">${label}</span>`;
@@ -116,7 +110,6 @@ function renderLinks(filtered) {
 
     const statusClass = link.status === 'read' ? 'status-read' : 'status-unread';
     const statusLabel = link.status === 'read' ? 'Lu' : 'À lire';
-    const dateStr = formatDate(link.added_at);
     const hasNotes = link.notes && link.notes.trim() !== '';
 
     const notesBlock = hasNotes ? `
@@ -133,7 +126,6 @@ function renderLinks(filtered) {
         </div>
         ${link.summary ? `<p class="link-summary">${escapeHtml(link.summary)}</p>` : ''}
         <div class="link-meta">
-          <span class="link-date">${dateStr}</span>
           <div class="link-tags">${tags}</div>
         </div>
         ${notesBlock}

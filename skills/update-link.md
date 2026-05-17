@@ -38,11 +38,9 @@ Proposer ou appliquer les modifications suivantes selon la demande de l'utilisat
 
 #### Marquer comme lu
 - Passer `status` à `"read"`
-- Renseigner `read_at` avec la date/heure courante en UTC, format ISO 8601 (ex: `"2026-05-17T14:30:00Z"`)
 
 #### Marquer comme non-lu
 - Passer `status` à `"unread"`
-- Passer `read_at` à `null`
 
 #### Ajouter ou modifier des notes
 - Remplacer le champ `notes` par le texte fourni par l'utilisateur
@@ -90,4 +88,4 @@ git push -u origin <branche-courante>
 ## Contraintes générales
 - Maximum 4 tags par lien
 - Ne jamais modifier le frontend (HTML/JS/CSS)
-- Ne jamais modifier les champs `id`, `url`, `added_at` d'un lien existant
+- Ne jamais modifier les champs `id` et `url` d'un lien existant
