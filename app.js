@@ -35,17 +35,22 @@ function getFiltered() {
   });
 }
 
-/* count filtered links per tag (respecting current search + status) */
+/* count filtered links per tag (respecting current search, status, and active tags) */
 function countPerTag() {
   const counts = {};
   const q = normalise(searchQuery);
-  for (const link of allLinks) {
-    /* apply search and status but NOT tag filter */
+  outer: for (const link of allLinks) {
     if (q) {
       const haystack = normalise(link.title) + ' ' + normalise(link.summary) + ' ' + normalise(link.notes);
       if (!haystack.includes(q)) continue;
     }
     if (activeStatus !== 'all' && link.status !== activeStatus) continue;
+    if (activeTags.size > 0) {
+      const linkTags = new Set(link.tags || []);
+      for (const t of activeTags) {
+        if (!linkTags.has(t)) continue outer;
+      }
+    }
     for (const t of (link.tags || [])) {
       counts[t] = (counts[t] || 0) + 1;
     }
