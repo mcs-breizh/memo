@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "id": "20260517-pep-20-zen-python",
+    "url": "https://peps.python.org/pep-0020/",
+    "title": "PEP 20 – The Zen of Python",
+    "summary": "Le PEP 20 recueille les 19 aphorismes de Tim Peters qui résument la philosophie de conception de Python, tels que « Explicit is better than implicit » ou « Readability counts ». Ces principes, accessibles via `import this`, servent de boussole pour écrire un code pythonique et élégant. Ils constituent également une base solide pour construire et diffuser une culture engineering au sein d'une équipe.",
+    "tags": ["python", "engineering-culture", "bonnes-pratiques", "philosophie"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-engineering-career-framework",
+    "url": "https://dropbox.tech/culture/our-updated-engineering-career-framework",
+    "title": "Our Updated Engineering Career Framework",
+    "summary": "Dropbox décrit la refonte de son référentiel de carrière pour les ingénieurs, en détaillant les niveaux, les compétences attendues et les critères de progression sur les filières IC (Individual Contributor) et management. Ce framework vise à donner de la visibilité et de l'équité dans les évolutions de carrière. Il constitue un exemple concret de structuration de la progression technique au sein d'une organisation engineering.",
+    "tags": ["engineering-culture", "career-framework", "management", "organisation"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-microservices-pas-technique",
+    "url": "https://www.youtube.com/watch?v=_yTNqp3wMuU",
+    "title": "Et si les micro-services n'avaient rien à voir avec la technique ? (Yves Brissaud, Devoxx France)",
+    "summary": "Cette conférence de Yves Brissaud remet en question l'approche purement technique des micro-services pour s'intéresser à ce qui les sous-tend vraiment : organisation des équipes, communication, topologies et rôles. En s'appuyant sur des expériences concrètes menées chez Docker, le talk démontre que la vraie complexité des micro-services est avant tout humaine et organisationnelle. Applicable même hors contexte micro-services, il invite à repenser la structuration d'une organisation engineering.",
+    "tags": ["engineering-culture", "organisation", "micro-services", "team-topologies"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-generative-ai-risks-developers",
+    "url": "https://leaddev.com/technical-direction/6-biggest-generative-ai-risks-developers",
+    "title": "6 Biggest Generative AI Risks for Developers",
+    "summary": "Cet article de LeadDev passe en revue les six principaux risques de l'IA générative pour les développeurs : hallucinations de code, introduction silencieuse de vulnérabilités de sécurité, problèmes de propriété intellectuelle, dépendance excessive aux outils, dérive des compétences et risques liés à la confidentialité des données. Il invite les équipes engineering à adopter une posture critique et informée face à ces technologies. Une lecture utile pour encadrer sereinement l'adoption de l'IA dans les pratiques de développement.",
+    "tags": ["ia", "bonnes-pratiques", "securite", "engineering-culture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-blue-ocean-strategy",
+    "url": "https://hbr.org/podcast/2023/05/what-is-blue-ocean-strategy-and-where-does-it-go-wrong",
+    "title": "What Is Blue Ocean Strategy and Where Does It Go Wrong? (HBR Podcast)",
+    "summary": "Cet épisode du podcast HBR explique la Blue Ocean Strategy, concept de W. Chan Kim et Renée Mauborgne, qui consiste à créer de nouveaux espaces de marché non disputés plutôt que de rivaliser dans des marchés saturés (océans rouges). Il explore les erreurs fréquentes dans l'application de cette stratégie et les conditions nécessaires à son succès. Un éclairage concis sur une approche stratégique majeure, utile pour tout leader souhaitant repenser son positionnement.",
+    "tags": ["strategie", "produit", "management"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-boss-bad-feedback",
+    "url": "https://hbr.org/2023/06/when-your-boss-gives-you-bad-feedback-badly",
+    "title": "When Your Boss Gives You Bad Feedback Badly",
+    "summary": "Cet article de HBR explore comment réagir lorsqu'un manager formule une critique de manière maladroite ou mal construite. Il propose des stratégies pour extraire la substance utile d'un feedback mal délivré, gérer ses émotions sur le moment et engager une conversation constructive malgré tout. Une lecture pratique pour développer sa résilience face aux retours difficiles.",
+    "tags": ["management", "engineering-culture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-prevent-product-waste",
+    "url": "https://www.usertesting.com/blog/how-prevent-product-waste",
+    "title": "How to Prevent Product Waste",
+    "summary": "Cet article de UserTesting explore les différentes formes de gaspillage en développement produit — fonctionnalités inutilisées, priorités mal alignées, hypothèses non validées — et propose des stratégies pour les éviter. Il met en avant l'importance des tests utilisateurs et de la recherche UX en amont pour s'assurer que les équipes construisent ce qui a réellement de la valeur. Une lecture utile pour tout product manager souhaitant améliorer le ROI de son équipe.",
+    "tags": ["produit", "bonnes-pratiques", "strategie"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-life-beyond-distributed-transactions",
+    "url": "https://queue.acm.org/detail.cfm?id=3025012",
+    "title": "Life Beyond Distributed Transactions (Pat Helland, ACM Queue)",
+    "summary": "Dans cet article de référence, Pat Helland explore comment concevoir des applications à très grande échelle sans recourir aux transactions distribuées, incompatibles avec une scalabilité extrême. Il introduit le concept d'entités — des unités de données modifiables atomiquement en isolation — et propose des patterns de communication qui acceptent l'incertitude plutôt que de la masquer. Un texte fondamental pour comprendre les compromis des systèmes distribués à l'échelle.",
+    "tags": ["architecture", "systemes-distribues", "bonnes-pratiques"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-spinnaker-canary-deployments",
+    "url": "https://spinnaker.io/docs/guides/user/canary/",
+    "title": "Canary Deployments – Spinnaker Documentation",
+    "summary": "Cette page de documentation de Spinnaker explique le concept de déploiement canary, une stratégie qui consiste à déployer une nouvelle version d'un service auprès d'un sous-ensemble restreint d'utilisateurs avant un déploiement généralisé. Elle décrit comment Spinnaker automatise l'analyse comparative des métriques entre la version canary et la version stable, permettant de valider ou d'annuler un déploiement de manière objective. Une référence pratique pour mettre en œuvre des déploiements progressifs et sécurisés.",
+    "tags": ["devops", "architecture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-asking-coworkers-how-doing",
+    "url": "https://hbr.org/2019/02/the-surprising-power-of-simply-asking-coworkers-how-theyre-doing",
+    "title": "The Surprising Power of Simply Asking Coworkers How They're Doing (HBR)",
+    "summary": "Cet article de HBR s'appuie sur une étude menée auprès de 1 000 salariés pour montrer que le simple fait de demander à ses collègues comment ils vont a un impact significatif sur leur sentiment d'appartenance. Plus de 40 % des répondants se sentent isolés dans leur environnement professionnel, et 39 % indiquent ressentir le plus fort sentiment d'appartenance lorsque leurs collègues prennent de leurs nouvelles. Une lecture qui rappelle l'importance des interactions humaines simples pour construire une culture d'équipe saine.",
+    "tags": ["engineering-culture", "management", "organisation"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-employee-not-meeting-goals",
+    "url": "https://hbr.org/2019/02/how-to-talk-to-an-employee-who-isnt-meeting-their-goals",
+    "title": "How to Talk to an Employee Who Isn't Meeting Their Goals (HBR)",
+    "summary": "Cet article de HBR propose une approche structurée et collaborative pour aborder avec un employé ses problèmes de performance, en évitant la confrontation directe. Il recommande de commencer par demander à l'employé son propre regard sur sa situation, de clarifier les attentes avec des exemples concrets, puis de l'impliquer dans la construction de son plan d'amélioration. Une méthode pratique pour mener ces conversations difficiles tout en préservant la motivation et la relation managériale.",
+    "tags": ["management", "engineering-culture", "career-framework"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-talented-employees-potential",
+    "url": "https://hbr.org/2019/03/4-reasons-talented-employees-dont-reach-their-potential",
+    "title": "4 Reasons Talented Employees Don't Reach Their Potential (HBR)",
+    "summary": "Cet article de Tomas Chamorro-Premuzic (HBR) identifie quatre raisons pour lesquelles les employés talentueux n'atteignent pas leur plein potentiel : un mauvais fit entre leurs talents et leur rôle, le désengagement souvent causé par un management défaillant, les jeux politiques internes à l'organisation, et les aléas de la vie personnelle. Il rappelle que le talent seul ne suffit pas et que l'environnement de travail joue un rôle déterminant dans l'expression du potentiel. Une lecture utile pour tout manager souhaitant créer les conditions du succès de son équipe.",
+    "tags": ["management", "engineering-culture", "career-framework"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-accelerate-learning-career",
+    "url": "https://hbr.org/podcast/2019/10/accelerate-learning-to-boost-your-career",
+    "title": "Accelerate Learning to Boost Your Career (HBR IdeaCast)",
+    "summary": "Cet épisode du HBR IdeaCast reçoit Scott Young, connu pour avoir assimilé l'intégralité du cursus informatique du MIT en 12 mois, pour parler d'apprentissage accéléré. Il présente les principes de l'« ultralearning » — une méthode d'acquisition intense et focalisée de compétences — et explique comment tout professionnel peut les appliquer pour progresser rapidement. Une référence pour ceux qui souhaitent maintenir leur compétitivité dans un environnement professionnel en constante évolution.",
+    "tags": ["developpement-personnel", "career-framework"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-consulting-firms-wrong-hiring",
+    "url": "https://hbr.org/2020/01/what-top-consulting-firms-gets-wrong-about-hiring",
+    "title": "What Top Consulting Firms Get Wrong About Hiring (HBR)",
+    "summary": "Cet article de HBR remet en question la pertinence des « case interviews », méthode de recrutement phare des grands cabinets de conseil comme McKinsey. Les auteurs démontrent qu'il n'existe aucune validation empirique de leur efficacité, que le format biaise les évaluateurs et fait perdre un temps considérable aux candidats. Ils plaident pour des méthodes de sélection plus rigoureuses et mieux documentées scientifiquement.",
+    "tags": ["management", "hiring"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
+    "id": "20260517-spot-incompetent-leader",
+    "url": "https://hbr.org/2020/03/how-to-spot-an-incompetent-leader",
+    "title": "How to Spot an Incompetent Leader (HBR)",
+    "summary": "Cet article de HBR explore les caractéristiques des leaders incompétents et leurs effets délétères sur les équipes : anxiété, désengagement et comportements contre-productifs. L'auteur souligne que l'arrogance et la surconfiance — souvent confondues avec de la compétence lors des processus de sélection — sont des marqueurs clés de l'incompétence managériale. Il recommande de s'appuyer sur des évaluations scientifiquement validées et de privilégier l'humilité et l'intégrité dans l'identification des futurs leaders.",
+    "tags": ["management", "leadership"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  }
+]
