@@ -462,6 +462,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-ai-writes-code-software-engineering",
+    "url": "https://newsletter.pragmaticengineer.com/p/when-ai-writes-almost-all-code-what",
+    "title": "When AI Writes Almost All Code, What Happens to Software Engineering?",
+    "summary": "Gergely Orosz (The Pragmatic Engineer) explore ce que devient le métier d'ingénieur logiciel quand l'IA génère la quasi-totalité du code. Il identifie plusieurs directions : un glissement vers la pensée systémique à grande échelle, la gestion d'agents IA parallèles, et une valorisation accrue des compétences de communication et de revue. L'article souligne que les fondamentaux du software engineering — tests, refactoring, compréhension du codebase — deviennent plus importants, pas moins.",
+    "tags": ["ia", "engineering-culture", "developpement-personnel"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
