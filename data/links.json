@@ -473,6 +473,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-ai-merging-platform-engineering-2026",
+    "url": "https://thenewstack.io/in-2026-ai-is-merging-with-platform-engineering-are-you-ready/",
+    "title": "In 2026, AI Is Merging With Platform Engineering. Are You Ready?",
+    "summary": "Cet article de The New Stack analyse la convergence entre l'IA et le platform engineering : en 2026, les deux disciplines fusionnent, le platform engineering devenant le standard pour déployer l'IA de manière fiable et sécurisée. L'IA s'est imposée comme un amplificateur des équipes de développement — pas un remplaçant — et la différence se fera sur la stratégie d'adoption portée par le leadership. Un appel aux organisations à traiter l'adoption des outils IA comme une priorité structurelle, pas seulement un achat.",
+    "tags": ["ia", "devops", "architecture"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
