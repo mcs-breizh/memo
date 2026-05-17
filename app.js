@@ -74,7 +74,8 @@ function renderTags() {
     const label = allTags[key] || key;
     const count = counts[key] || 0;
     const active = activeTags.has(key) ? ' active' : '';
-    return `<button class="tag-btn${active}" data-tag="${key}" aria-pressed="${activeTags.has(key)}">${label} <span class="tag-count">${count}</span></button>`;
+    const zero = count === 0 ? ' zero' : '';
+    return `<button class="tag-btn${active}${zero}" data-tag="${key}" aria-pressed="${activeTags.has(key)}">${label} <span class="tag-count">${count}</span></button>`;
   }).join('');
 
   container.querySelectorAll('.tag-btn').forEach(btn => {
