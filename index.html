@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Memo</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="filters-section">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Rechercher par titre, résumé ou notes…"
+        autocomplete="off"
+        aria-label="Rechercher des liens"
+      >
+
+      <div class="status-filter" role="group" aria-label="Filtrer par statut">
+        <button class="status-btn active" data-status="all">Tous</button>
+        <button class="status-btn" data-status="unread">À lire</button>
+        <button class="status-btn" data-status="read">Lus</button>
+      </div>
+
+      <div id="tags-container" class="tags-container" aria-label="Filtrer par tag"></div>
+
+      <p id="counter" class="counter" aria-live="polite"></p>
+    </section>
+
+    <section id="links-container" aria-label="Liste des liens"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

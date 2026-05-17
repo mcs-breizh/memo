@@ -1,0 +1,220 @@
+/* ── Layout ── */
+.site-header {
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  padding: 0.75rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* ── Filters section ── */
+.filters-section {
+  margin-bottom: 1.5rem;
+}
+
+.filters-section > * + * {
+  margin-top: 0.75rem;
+}
+
+#search-input {
+  margin-bottom: 0;
+}
+
+/* ── Status filter ── */
+.status-filter {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.status-btn {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.875rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 1px solid var(--pico-muted-border-color);
+  background: transparent;
+  color: var(--pico-color);
+  transition: background 0.15s, border-color 0.15s;
+  min-height: 2.5rem;
+  min-width: 3.5rem;
+}
+
+.status-btn.active {
+  background: var(--pico-primary);
+  border-color: var(--pico-primary);
+  color: var(--pico-primary-inverse);
+}
+
+/* ── Tag buttons ── */
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: 1px solid var(--pico-muted-border-color);
+  background: transparent;
+  color: var(--pico-color);
+  transition: background 0.15s, border-color 0.15s;
+  min-height: 2.25rem;
+}
+
+.tag-btn.active {
+  background: var(--pico-secondary);
+  border-color: var(--pico-secondary);
+  color: var(--pico-secondary-inverse);
+}
+
+.tag-count {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+/* ── Counter ── */
+.counter {
+  font-size: 0.8rem;
+  color: var(--pico-muted-color);
+  margin: 0.5rem 0 0;
+}
+
+/* ── Link cards ── */
+.link-card {
+  padding: 1rem;
+  border: 1px solid var(--pico-muted-border-color);
+  border-radius: var(--pico-border-radius);
+  margin-bottom: 0.75rem;
+}
+
+.link-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.link-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  flex: 1;
+  word-break: break-word;
+}
+
+/* ── Status indicator ── */
+.status-badge {
+  flex-shrink: 0;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  margin-top: 0.35rem;
+}
+
+.status-unread {
+  background: var(--pico-primary);
+}
+
+.status-read {
+  background: var(--pico-muted-color);
+}
+
+/* ── Summary ── */
+.link-summary {
+  font-size: 0.875rem;
+  color: var(--pico-color);
+  margin: 0 0 0.5rem;
+  line-height: 1.5;
+}
+
+/* ── Meta row ── */
+.link-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.25rem;
+}
+
+.link-date {
+  font-size: 0.75rem;
+  color: var(--pico-muted-color);
+  white-space: nowrap;
+}
+
+.link-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.tag-badge {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 2rem;
+  background: var(--pico-muted-border-color);
+  color: var(--pico-color);
+}
+
+/* ── Notes accordion ── */
+.notes-details {
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--pico-muted-border-color);
+  padding-top: 0.4rem;
+}
+
+.notes-details summary {
+  font-size: 0.8rem;
+  color: var(--pico-muted-color);
+  cursor: pointer;
+  padding: 0.2rem 0;
+  user-select: none;
+}
+
+.notes-text {
+  font-size: 0.85rem;
+  margin: 0.4rem 0 0;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+/* ── Empty / no-results states ── */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--pico-muted-color);
+}
+
+.no-results {
+  text-align: center;
+  color: var(--pico-muted-color);
+  font-size: 0.9rem;
+  padding: 2rem 0;
+}
+
+/* ── Mobile tweaks ── */
+@media (max-width: 480px) {
+  .site-title {
+    font-size: 1.1rem;
+  }
+
+  .link-card {
+    padding: 0.85rem;
+  }
+
+  .link-title {
+    font-size: 0.9rem;
+  }
+}
