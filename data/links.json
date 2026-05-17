@@ -484,6 +484,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-coding-agent-development-workflows",
+    "url": "https://medium.com/nick-tune-tech-strategy-blog/coding-agent-development-workflows-af52e6f912aa",
+    "title": "Coding Agent Development Workflows",
+    "summary": "Nick Tune décrit son workflow de développement avec des agents IA : un agent spécialiste PRD structure d'abord les exigences, puis une commande /create-tasks décompose le travail en tâches avec un format strict (livrables, contexte, critères d'acceptation, stratégie de test…). L'objectif est que l'agent traverse de façon autonome l'ensemble du cycle jusqu'à produire une PR mergeable ou signaler un blocage. Un retour d'expérience détaillé sur comment industrialiser le travail avec des agents de code.",
+    "tags": ["ia", "coding-agents"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
