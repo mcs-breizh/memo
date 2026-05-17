@@ -451,6 +451,17 @@
     "read_at": null
   },
   {
+    "id": "20260517-startup-engineering-team-organisation",
+    "url": "https://marcgg.com/blog/2025/11/17/cross-team-work/",
+    "title": "Startup Engineering Team Organisation",
+    "summary": "Marc Gauthier explore les différents modèles d'organisation des équipes engineering en startup : squads organisées autour de domaines métier (inspirées du modèle Spotify), chapitres transversaux par expertise technique, et équipes core dédiées à la dette technique. Il décrit les avantages et les douleurs de chaque approche — notamment le ralentissement qui survient quand les squads feature négligent les projets techniques d'envergure. Un retour d'expérience honnête sur les compromis inévitables dans la structuration d'une organisation engineering.",
+    "tags": ["organisation", "engineering-culture", "team-topologies"],
+    "status": "unread",
+    "notes": "",
+    "added_at": "2026-05-17T00:00:00Z",
+    "read_at": null
+  },
+  {
     "id": "20260517-disagreement-not-divisive",
     "url": "https://hbr.org/2020/11/disagreement-doesnt-have-to-be-divisive",
     "title": "Disagreement Doesn't Have to Be Divisive",
