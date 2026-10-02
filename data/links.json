@@ -776,5 +776,19 @@
     ],
     "status": "unread",
     "notes": ""
+  },
+  {
+    "id": "20261002-state-ai-harness-engineering-2026",
+    "url": "https://marmelab.com/blog/2026/09/24/the-state-of-ai-harness-engineering-2026.html",
+    "title": "The State Of AI Harness Engineering 2026",
+    "summary": "Marmelab a audité 246 dépôts et lu 57 publications pour dresser l'état des pratiques de « harness engineering » (outils, contexte et boucles de contrôle autour d'un agent de code). L'article recommande notamment de tester le harnais, de le garder minimal et de remplacer les règles en prose par des scripts exécutables. Il signale aussi ce qui ne marche pas, comme les agents relecteurs ou les longues chaînes de transferts entre agents.",
+    "tags": [
+      "coding-agents",
+      "ia",
+      "bonnes-pratiques",
+      "harness-engineering"
+    ],
+    "status": "unread",
+    "notes": ""
   }
 ]
